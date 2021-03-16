@@ -161,5 +161,11 @@ namespace ExpCalc
 			HidePanels();
 			elementHost_form.Child = new UserControlRankAfterDecree();
         }
+
+        private void button_vacationAfterDecree_Click(object sender, EventArgs e)
+        {
+			HidePanels();
+			elementHost_form.Child = new UserControlVacationAfterDecree();
+        }
     }
 }

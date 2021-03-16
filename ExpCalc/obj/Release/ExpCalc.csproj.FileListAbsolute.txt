@@ -177,3 +177,6 @@ C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\ExpCalc.csproj.Cor
 C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\ExpCalc.csproj.CopyComplete
 C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\HR Calculator.exe
 C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\HR Calculator.pdb
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\ExpCalc.csprojAssemblyReference.cache
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\UserControlVacationAfterDecree.baml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\UserControlVacationAfterDecree.g.cs

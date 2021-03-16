@@ -32,6 +32,7 @@
             this.panel_menu = new System.Windows.Forms.Panel();
             this.panel_bar = new System.Windows.Forms.Panel();
             this.button_dataBase = new FontAwesome.Sharp.IconButton();
+            this.button_vacationAfterDecree = new FontAwesome.Sharp.IconButton();
             this.button_rankAfterDecree = new FontAwesome.Sharp.IconButton();
             this.button_vacationCalc = new FontAwesome.Sharp.IconButton();
             this.button_expirience = new FontAwesome.Sharp.IconButton();
@@ -72,13 +73,14 @@
             this.panel_bar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel_bar.BackColor = System.Drawing.Color.FloralWhite;
             this.panel_bar.Controls.Add(this.button_dataBase);
+            this.panel_bar.Controls.Add(this.button_vacationAfterDecree);
             this.panel_bar.Controls.Add(this.button_rankAfterDecree);
             this.panel_bar.Controls.Add(this.button_vacationCalc);
             this.panel_bar.Controls.Add(this.button_expirience);
             this.panel_bar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_bar.Location = new System.Drawing.Point(0, 153);
             this.panel_bar.Name = "panel_bar";
-            this.panel_bar.Size = new System.Drawing.Size(175, 123);
+            this.panel_bar.Size = new System.Drawing.Size(175, 153);
             this.panel_bar.TabIndex = 3;
             // 
             // button_dataBase
@@ -91,7 +93,7 @@
             this.button_dataBase.IconColor = System.Drawing.Color.Black;
             this.button_dataBase.IconSize = 28;
             this.button_dataBase.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_dataBase.Location = new System.Drawing.Point(0, 91);
+            this.button_dataBase.Location = new System.Drawing.Point(0, 122);
             this.button_dataBase.Name = "button_dataBase";
             this.button_dataBase.Rotation = 0D;
             this.button_dataBase.Size = new System.Drawing.Size(175, 31);
@@ -100,6 +102,26 @@
             this.button_dataBase.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_dataBase.UseVisualStyleBackColor = false;
             this.button_dataBase.Click += new System.EventHandler(this.Button_dataBase_Click);
+            // 
+            // button_vacationAfterDecree
+            // 
+            this.button_vacationAfterDecree.BackColor = System.Drawing.Color.FloralWhite;
+            this.button_vacationAfterDecree.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button_vacationAfterDecree.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_vacationAfterDecree.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.button_vacationAfterDecree.IconChar = FontAwesome.Sharp.IconChar.Baby;
+            this.button_vacationAfterDecree.IconColor = System.Drawing.Color.Black;
+            this.button_vacationAfterDecree.IconSize = 32;
+            this.button_vacationAfterDecree.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_vacationAfterDecree.Location = new System.Drawing.Point(0, 91);
+            this.button_vacationAfterDecree.Name = "button_vacationAfterDecree";
+            this.button_vacationAfterDecree.Rotation = 0D;
+            this.button_vacationAfterDecree.Size = new System.Drawing.Size(175, 31);
+            this.button_vacationAfterDecree.TabIndex = 4;
+            this.button_vacationAfterDecree.Text = "            Стаж після ДВ";
+            this.button_vacationAfterDecree.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_vacationAfterDecree.UseVisualStyleBackColor = false;
+            this.button_vacationAfterDecree.Click += new System.EventHandler(this.button_vacationAfterDecree_Click);
             // 
             // button_rankAfterDecree
             // 
@@ -377,6 +399,7 @@
         private FontAwesome.Sharp.IconButton button_vacationCalc;
         private FontAwesome.Sharp.IconButton iconButton_givenDate;
         private FontAwesome.Sharp.IconButton button_rankAfterDecree;
+        private FontAwesome.Sharp.IconButton button_vacationAfterDecree;
     }
 }
 
