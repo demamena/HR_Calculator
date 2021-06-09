@@ -1,0 +1,40 @@
+CREATE DATABASE HR_Calculator
+ON
+(
+	NAME=HRCalculator,
+	FILENAME='D:\HRCalculator.mdf'
+)
+
+use HR_Calculator;
+
+CREATE TABLE Workers		
+(
+	idWorker	int identity(1, 1)		
+ 	 			PRIMARY KEY,
+	PIB	VARCHAR(255) NOT NULL,
+	seriesAndNumber	varchar(50) NOT NULL UNIQUE CHECK(LEN(seriesAndNumber)>7),
+	dateOfIssue	DATE NOT NULL CHECK(GETDATE() >= dateOfIssue),
+	issuingAuthority	VARCHAR(50) NOT NULL
+)
+
+CREATE TABLE Department	
+(
+	idDepartment int identity(1, 1) PRIMARY KEY,
+	DepartmentName	VARCHAR(255) NOT NULL,
+	Division	VARCHAR(255) NOT NULL
+)
+
+CREATE TABLE Post
+(
+	idPost	int identity(1, 1) PRIMARY KEY,
+	Department int FOREIGN KEY REFERENCES Department (idDepartment) ON DELETE CASCADE,
+	PostName	VARCHAR(255) NOT NULL
+)
+
+CREATE TABLE HeldPosts		
+(
+	idHeldPost int identity(1, 1) PRIMARY KEY,
+	idPost	int FOREIGN KEY REFERENCES Post(idPost),
+	idWorker int FOREIGN KEY REFERENCES Workers(idWorker) ON DELETE CASCADE,
+	dateOfAppointment DATE NOT NULL CHECK(GETDATE() > dateOfAppointment)
+)

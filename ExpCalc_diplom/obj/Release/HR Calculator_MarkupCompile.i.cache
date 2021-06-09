@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\
 HRCalculator
 none
 false
 TRACE
 
-614712196
+1189584977
 2-2036777809
-21963989955
-36-984078771
-UserControlExperience.xaml;UserControlGivenDate.xaml;UserControlMainMenu.xaml;UserControlRankAfterDecree.xaml;UserControlVacation.xaml;UserControlVacationAfterDecree.xaml;
+26-1824770067
+36-925998844
+UserControlAddWorker.xaml;UserControlCreatePost.xaml;UserControlDecreeHospitalVacation.xaml;UserControlDepartmentAdding.xaml;UserControlExperience.xaml;UserControlGivenDate.xaml;UserControlMainMenu.xaml;UserControlPostAssign.xaml;UserControlRankAfterDecree.xaml;UserControlVacation.xaml;UserControlVacationAfterDecree.xaml;
 
-True
+False
 

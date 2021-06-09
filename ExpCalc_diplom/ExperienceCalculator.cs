@@ -1,30 +1,31 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.SQLite;
-using System.IO;
-using System.Linq;
+using System.Data;
+using System.Data.SqlClient;
 using System.Windows;
+using System.Windows.Input;
+
 using NodaTime;
 
 namespace ExpCalc
 {
     interface IExpirienceCalculator
-    {
-        LocalDate[] GetDate(string startDateString, string endDateString);
+	{
+		LocalDate[] GetDate(string startDateString, string endDateString);
 
-        Period CalculateCurrentPeriod(LocalDate startDate, LocalDate endDate);
+		Period CalculateCurrentPeriod(LocalDate startDate, LocalDate endDate);
 
-        void CalculateToGlobalPeriod(string startDate, string endDate, string name, bool isState, bool addToDB);
+		void CalculateToGlobalPeriod(string startDate, string endDate, string name, bool isState, bool addToDB);
 
-        void CalculateToGlobalPeriod(Period periodDiff, bool isState);
+		void CalculateToGlobalPeriod(Period periodDiff, bool isState);
 
-        Period ConvertStringToPeriod(string period);
+		Period ConvertStringToPeriod(string period);
 
-        LocalDate ConvertStringToLocalDate(string localDate);
+		LocalDate ConvertStringToLocalDate(string localDate);
 
-        void AddCheckedRecord(UserControlList.Record record, System.Windows.Forms.Label label_avgExperience, System.Windows.Forms.Label label_stateExperience);
+		void AddCheckedRecord(UserControlList.Record record, System.Windows.Forms.Label label_avgExperience, System.Windows.Forms.Label label_stateExperience);
 
-        void SubtractCheckedRecord(UserControlList.Record record, System.Windows.Forms.Label label_avgExperience, System.Windows.Forms.Label label_stateExperience);
+		void SubtractCheckedRecord(UserControlList.Record record, System.Windows.Forms.Label label_avgExperience, System.Windows.Forms.Label label_stateExperience);
 
 		void SelectCursorMaskedTextBox(Xceed.Wpf.Toolkit.MaskedTextBox maskedTextBox);
 
@@ -33,273 +34,479 @@ namespace ExpCalc
 		Period AddingPeriods(Period firstPeriod, Period secondPeriod);
 
 		string ConvertPeriodToString(Period period);
+
+		void CheckDateCorrect(object sender, System.Windows.Input.TextCompositionEventArgs e);
 	}
 
-	interface IExperienceDataBase
+	interface IDataBase
 	{
-		void Sqlite_AddRecord(string name, LocalDate startDate, LocalDate endDate, Period generalPeriod, Period statePeriod);
+		void SQL_InsertDepartment(string Department, string DepartmentName);
 
-		string[,] Sqlite_GetAllRecords(List<string> recordsDB);
+		void SQL_InsertWorkers(string PIB, string SeriesAndNumber, DateTime dateOfIssue, string issuingAuthority);
 
-		void Sqlite_DeleteRecord(List<int> listRowid);
+		void SQL_InsertPost(string Department, string Post);
 
-		void DeleteCheckedRecords(System.Windows.Forms.Panel panel, System.Windows.Forms.Label avgExperience, System.Windows.Forms.Label stateExperience);
+		void SQL_InsertHeldPosts(int idWorker, int idPost);
 
-		List<int> GetCheckedRowids(System.Windows.Forms.Panel panel);
+		string SQL_SelectTables(string tableName);
 
-		bool Sqlite_IsRecordExists(string startDate, string endDate, string name, bool isState);
-
-		List<string> Sqlite_GetAllNames();
-
-		List<string> Sqlite_GetRecordsFromDBByName(string name);
+		void SQL_UpdateTables(string tableName, DataTable dataTable);
 	}
 
-	class ExperienceDataBase : IExperienceDataBase
+	class ExperienceDataBase : IDataBase
 	{
-		private string connection = "Data Source = experiencePeriods.db";
+		public DataSet dataSet = new();
 
-		public void Sqlite_AddRecord(string name, LocalDate startDate, LocalDate endDate, Period generalPeriod, Period statePeriod)
+		SqlConnection con = new SqlConnection("Data Source = .;Initial Catalog=HR_Calculator;Integrated Security=True");
+
+		public void SQL_InsertDepartment(string Department, string DepartmentName)
 		{
-			SQLiteConnection con = new SQLiteConnection(connection);
 			con.Open();
-			using (SQLiteCommand fmd = con.CreateCommand())
+			try
 			{
-				try
-				{
-					fmd.CommandText = $"INSERT INTO Experiences(name, startDate, endDate, generalPeriod, statePeriod, dateAdded)" +
-						$" VALUES('{name}'," +
-						$" '{new DateTime(startDate.Year, startDate.Month, startDate.Day):dd.MM.yyyy}'," +
-						$" '{new DateTime(endDate.Year, endDate.Month, endDate.Day):dd.MM.yyyy}'," +
-						$" '{generalPeriod.Years + " р. " + generalPeriod.Months + " м. " + generalPeriod.Days + " д."}'," +
-						$" '{statePeriod.Years + " р. " + statePeriod.Months + " м. " + statePeriod.Days + " д."}', '{DateTime.Today:dd.MM.yyyy}')";
-					fmd.ExecuteNonQuery();
-				}
-				catch (Exception ex)
-				{
-					MessageBox.Show(ex.Message);
-				}
+				SqlCommand adapter = new SqlCommand($"INSERT INTO Department VALUES('{Department}', '{DepartmentName}')", con);
+				adapter.ExecuteNonQuery();
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
 			}
 			con.Close();
 		}
 
-		public List<string> Sqlite_GetAllRecordsFromDataBase()
+		public void SQL_InsertWorkers(string PIB, string SeriesAndNumber, DateTime dateOfIssue, string issuingAuthority)
 		{
-			SQLiteConnection con = new SQLiteConnection(connection);
 			con.Open();
-			List<string> records = new List<string>();
-			using (SQLiteCommand fmd = con.CreateCommand())
+			try
 			{
-				try
-				{
-					fmd.CommandText = $"SELECT startDate, endDate, generalPeriod, statePeriod, dateAdded, name, rowid FROM Experiences ORDER BY rowid";
-					SQLiteDataReader reader = fmd.ExecuteReader();
-
-					while (reader.Read())
-					{
-						records.Add(reader["startDate"].ToString() + "/" + reader["endDate"].ToString()
-							+ "/" + reader["generalPeriod"].ToString() + "/" + reader["statePeriod"].ToString()
-							+ "/" + reader["dateAdded"].ToString() + "/" + reader["name"].ToString() 
-							+ "/" + reader["rowid"].ToString());
-					}
-					reader.Close();
-				}
-				catch (Exception ex)
-				{
-					MessageBox.Show(ex.Message);
-				}
+				SqlCommand adapter = new SqlCommand($"INSERT INTO Workers VALUES('{PIB}', '{SeriesAndNumber}', '{dateOfIssue:MM/dd/yyyy}', '{issuingAuthority}')", con);
+				adapter.ExecuteNonQuery();
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
 			}
 			con.Close();
-			return records;
 		}
 
-		public string[,] Sqlite_GetAllRecords(List<string> recordsDB)
+		public void SQL_InsertPost(string Department, string Post)
 		{
-			const int recordLength = 7;
-			string[,] records = new string[recordsDB.Count, recordLength];
-			string[] recordSplit = new string[recordLength];
-			int counter = 0;
-			foreach(var record in recordsDB)
-			{
-				recordSplit = record.Split('/');
-				for(int i = 0; i < recordLength; i++)
-					records[counter, i] = recordSplit[i];
-				counter++;
-			}
-			return records;
-		}
-
-		public void Sqlite_CreateTables(string file)
-        {
-			if (File.Exists(file))
-				return;
-			SQLiteConnection con = new SQLiteConnection(connection);
 			con.Open();
-			using (SQLiteCommand fmd = con.CreateCommand())
+			try
 			{
-				try
-				{
-					fmd.CommandText = "CREATE TABLE [Experiences] ([startDate] TEXT NOT NULL," +
-						" [endDate] TEXT NOT NULL," +
-						" [generalPeriod] TEXT NOT NULL," +
-						" [statePeriod] TEXT NOT NULL," +
-						" [dateAdded] TEXT NOT NULL," +
-						" [name] TEXT NOT NULL)";
-					fmd.ExecuteNonQuery();
-				}
-				catch (Exception ex)
-				{
-					MessageBox.Show(ex.Message);
-				}
+				SqlCommand adapter = new SqlCommand($"INSERT INTO Post VALUES('{Department}', '{Post}')", con);
+				adapter.ExecuteNonQuery();
 			}
-			con.Close();
-			File.SetAttributes(file, FileAttributes.Hidden);
-		}
-
-        public void Sqlite_DeleteRecord(List<int> listRowid)
-        {
-			SQLiteConnection con = new SQLiteConnection(connection);
-			con.Open();
-			using (SQLiteCommand fmd = con.CreateCommand())
+			catch (Exception ex)
 			{
-				try
-				{
-					foreach (var rowid in listRowid)
-					{
-						fmd.CommandText = $"DELETE FROM Experiences WHERE rowid = {rowid}";
-						fmd.ExecuteNonQuery();
-					}
-				}
-				catch (Exception ex)
-				{
-					MessageBox.Show(ex.Message);
-				}
+				MessageBox.Show(ex.Message);
 			}
 			con.Close();
 		}
 
-		public void DeleteCheckedRecords(System.Windows.Forms.Panel panel, System.Windows.Forms.Label avgExperience, System.Windows.Forms.Label stateExperience)
+		public void SQL_InsertHeldPosts(int idWorker, int idPost)
 		{
-			List<System.Windows.Forms.Control> listControls = new List<System.Windows.Forms.Control>();
-			foreach (System.Windows.Forms.Control control in panel.Controls)
-			{
-				UserControlList userControlList = (UserControlList)control;
-				if (userControlList.isChecked)
-				{
-					listControls.Add(control);
-					new ExperienceCalculator().SubtractCheckedRecord(userControlList.record, avgExperience, stateExperience);
-				}
-			}
-			Sqlite_DeleteRecord(GetCheckedRowids(panel));
-			foreach (var control in listControls)
-				panel.Controls.Remove(control);
-		}
-
-        public List<int> GetCheckedRowids(System.Windows.Forms.Panel panel)
-        {
-			List<int> listRowid = new List<int>();
-			foreach (System.Windows.Forms.Control control in panel.Controls)
-			{
-				UserControlList userControlList = (UserControlList)control;
-				UserControlList.Record record = userControlList.record;
-				if (userControlList.isChecked)
-					listRowid.Add(record.rowid);
-			}
-			return listRowid;
-		}
-
-        public bool Sqlite_IsRecordExists(string startDate, string endDate, string name, bool isState)
-        {
-			var expCalc = new ExperienceCalculator();
-			LocalDate[] localDates = expCalc.GetDate(startDate, endDate);
-			SQLiteConnection con = new SQLiteConnection(connection);
 			con.Open();
-			List<string> records = new List<string>();
-			using (SQLiteCommand fmd = con.CreateCommand())
+			try
 			{
-				try
-				{
-					fmd.CommandText = $"SELECT statePeriod FROM Experiences WHERE name = '{name}'" +
-						$" AND startDate = '{new DateTime(localDates[0].Year, localDates[0].Month, localDates[0].Day):dd.MM.yyyy}'" +
-						$" AND endDate = '{new DateTime(localDates[1].Year, localDates[1].Month, localDates[1].Day):dd.MM.yyyy}'";
-					SQLiteDataReader reader = fmd.ExecuteReader();
-					while (reader.Read())
-					{
-						if (isState && reader["statePeriod"].ToString() == "0 р. 0 м. 0 д.")
-							continue;
-                        reader.Close();
-                        con.Close();
-                        return true;
-
-                    }
-					reader.Close();
-				}
-				catch
-				{
-				}
+				SqlCommand adapter = new SqlCommand($"INSERT INTO HeldPosts VALUES('{idPost}', '{idWorker}', '{DateTime.Now:MM/dd/yyyy}')", con);
+				adapter.ExecuteNonQuery();
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
 			}
 			con.Close();
-			return false;
+		}
+
+		public string SQL_SelectTables(string tableName)
+		{
+			string table = null;
+			switch (tableName)
+			{
+				case "Співробітники":
+					SQL_SelectAllWorkers();
+					table = "Workers";
+					break;
+				case "Посади":
+					SQL_SelectAllPosts();
+					table = "Post";
+					break;
+				case "Займані посади":
+					SQL_SelectAllHeldPosts();
+					table = "HeldPosts";
+					break;
+				case "Департаменти":
+					SQL_SelectAllDepartments();
+					table = "Department";
+					break;
+			}
+			return table;
+		}
+
+		public string ConvertNameToTableName(string name)
+		{
+			string table = null;
+			switch (name)
+			{
+				case "Співробітники":
+					table = "Workers";
+					break;
+				case "Посади":
+					table = "Post";
+					break;
+				case "Займані посади":
+					table = "HeldPosts";
+					break;
+				case "Накази на відпустку":
+					table = "VacationOrder";
+					break;
+				case "Накази на присвоєння рангу":
+					table = "RankOrder";
+					break;
+			}
+			return table;
+		}
+
+		public int SQL_CountWorkers()
+		{
+			con.Open();
+			int workersCount = 0;
+			try
+			{
+				SqlCommand command = new SqlCommand($"SELECT COUNT(idWorker) AS [count] " +
+					$"FROM Workers", con);
+				SqlDataReader r = command.ExecuteReader();
+				while (r.Read())
+					workersCount = r.GetInt32(0);
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
+			}
+			con.Close();
+			return workersCount;
+		}
+
+		private void SQL_SelectAllWorkers()
+		{
+			con.Open();
+			try
+			{
+				SqlDataAdapter adapter = new SqlDataAdapter($"SELECT idWorker AS [Код працівника], " +
+					$"PIB AS [ПІБ]," +
+					$" seriesAndNumber AS [Серія та номер паспорту], " +
+					$"dateOfIssue AS [Дата видачі], " +
+					$"issuingAuthority AS [Орган, що видав]" +
+					$"FROM Workers", con);
+				adapter.Fill(dataSet, "Workers");
+				dataSet.Tables["Workers"].Clear();
+				adapter.Fill(dataSet, "Workers");
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
+			}
+			con.Close();
+		}
+
+		public List<string> SQL_SelectWorkersNames()
+		{
+			con.Open();
+			List<string> list = new List<string>();
+
+			try
+			{
+				SqlCommand command = new SqlCommand($"SELECT idWorker, " +
+					$"PIB " +
+					$"FROM Workers", con);
+				SqlDataReader r = command.ExecuteReader();
+				DataTable dt = new DataTable();
+				dt.Load(r);
+				foreach (DataRow row in dt.Rows)
+					list.Add(row["idWorker"] + ". " + row["PIB"].ToString());
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
+			}
+			con.Close();
+			return list;
+		}
+
+		public List<string> SQL_SelectPostNames()
+		{
+			con.Open();
+			List<string> list = new List<string>();
+			try
+			{
+				SqlCommand command = new SqlCommand($"SELECT idPost, " +
+					$"PostName, " +
+					$"Post.Department, " +
+					$"DepartmentName " +
+					$"FROM Post JOIN dbo.Department ON Post.Department = dbo.Department.Department", con);
+				SqlDataReader r = command.ExecuteReader();
+				DataTable dt = new DataTable();
+				dt.Load(r);
+				foreach (DataRow row in dt.Rows)
+					list.Add(row["idPost"] + ". " + row["PostName"].ToString() + "|" + row["Department"].ToString() + "|" + row["DepartmentName"].ToString());
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
+			}
+			con.Close();
+			return list;
+		}
+
+		public List<string> SQL_SelectDepartmentNames()
+		{
+			con.Open();
+			List<string> list = new List<string>();
+			try
+			{
+				SqlCommand command = new SqlCommand($"SELECT Department, " +
+					$"DepartmentName " +
+					$"FROM Department", con);
+				SqlDataReader r = command.ExecuteReader();
+				DataTable dt = new DataTable();
+				dt.Load(r);
+				foreach (DataRow row in dt.Rows)
+					list.Add(row["Department"].ToString() + "|" + row["DepartmentName"].ToString());
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
+			}
+			con.Close();
+			return list;
+		}
+
+		private void SQL_SelectAllDepartments()
+		{
+			con.Open();
+			try
+			{
+				SqlDataAdapter adapter = new SqlDataAdapter($"SELECT idDepartment AS [Код], " +
+					$"DepartmentName AS [Відділ], " +
+					$"Division AS [Департамент] "+
+					$"FROM Department", con);
+				adapter.Fill(dataSet, "Department");
+				dataSet.Tables["Department"].Clear();
+				adapter.Fill(dataSet, "Department");
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
+			}
+			con.Close();
+		}
+
+		private void SQL_SelectAllPosts()
+		{
+			con.Open();
+			try
+			{
+				SqlDataAdapter adapter = new SqlDataAdapter($"SELECT idPost AS [Код посади], " +
+					$"PostName AS [Посада] " +
+					$"FROM Post", con);
+				adapter.Fill(dataSet, "Post");
+				dataSet.Tables["Post"].Clear();
+				adapter.Fill(dataSet, "Post");
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
+			}
+			con.Close();
+		}
+
+		private void SQL_SelectAllHeldPosts()
+		{
+			con.Open();
+			try
+			{
+				SqlDataAdapter adapter = new SqlDataAdapter($"SELECT h.idHeldPost AS [Код], p.PostName AS [Посада], " +
+					$"w.PIB AS [ПІБ], " +
+					$"d.DepartmentName AS [Відділ], " +
+					$"d.Division AS [Департамент], " +
+					$"dateOfAppointment AS [Дата призначення] " +
+					$"FROM HeldPosts AS h INNER JOIN Workers AS w ON h.idWorker = w.idWorker " +
+					$"INNER JOIN Post AS p INNER JOIN Department as d ON p.Department = d.idDepartment " +
+					$"ON p.idPost = h.idPost", con);
+				adapter.Fill(dataSet, "HeldPosts");
+				dataSet.Tables["HeldPosts"].Clear();
+				adapter.Fill(dataSet, "HeldPosts");
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
+			}
+			con.Close();
+		}
+
+
+		public void SQL_UpdateTables(string tableName, DataTable dataTable)
+		{
+			switch (tableName)
+			{
+				case "Співробітники":
+					SQL_UpdateWorker(dataTable);
+					break;
+				case "Посади":
+					SQL_UpdatePost(dataTable);
+					break;
+				case "Займані посади":
+					SQL_UpdateHeldPosts(dataTable);
+					break;
+            }
         }
 
-        public List<string> Sqlite_GetAllNames()
-        {
-			List<string> namesList = new List<string>();
-			SQLiteConnection con = new SQLiteConnection(connection);
-			con.Open();
-			using (SQLiteCommand fmd = con.CreateCommand())
+		public void SQL_DeleteTables(string tableName, int id)
+		{
+			switch (tableName)
 			{
-				try
-				{
-					fmd.CommandText = $"SELECT name FROM Experiences ORDER BY rowid DESC";
-					SQLiteDataReader reader = fmd.ExecuteReader();
-					while (reader.Read())
-					{
-						namesList.Add(reader["name"].ToString());
-					}
-					reader.Close();
-				}
-				catch
-				{
-				}
+				case "Співробітники":
+					SQL_DeleteWorker(id);
+					break;
+				case "Посади":
+					SQL_DeletePost(id);
+					break;
+				case "Займані посади":
+					SQL_DeleteHeldPosts(id);
+					break;
+				case "Департаменти":
+					SQL_DeleteDepartment(id);
+					break;
 			}
-			con.Close();
-			HashSet<string> hashSet = new HashSet<string>(namesList);
-			namesList.Clear();
-            namesList = hashSet.ToList();
-			namesList.Sort();
-			return namesList;
 		}
 
-        public List<string> Sqlite_GetRecordsFromDBByName(string name)
-        {
-			SQLiteConnection con = new SQLiteConnection(connection);
+		private void SQL_DeleteHeldPosts(int id)
+		{
 			con.Open();
-			List<string> records = new List<string>();
-			using (SQLiteCommand fmd = con.CreateCommand())
+			try
 			{
-				try
-				{
-					fmd.CommandText = $"SELECT startDate, endDate, generalPeriod, statePeriod, dateAdded, name, rowid FROM Experiences WHERE name = '{name}' ORDER BY rowid";
-					SQLiteDataReader reader = fmd.ExecuteReader();
-
-					while (reader.Read())
-					{
-						records.Add(reader["startDate"].ToString() + "/" + reader["endDate"].ToString()
-							+ "/" + reader["generalPeriod"].ToString() + "/" + reader["statePeriod"].ToString()
-							+ "/" + reader["dateAdded"].ToString() + "/" + reader["name"].ToString()
-							+ "/" + reader["rowid"].ToString());
-					}
-					reader.Close();
-				}
-				catch (Exception ex)
-				{
-					MessageBox.Show(ex.Message);
-				}
+				SqlCommand command = new SqlCommand($"DELETE FROM HeldPosts WHERE idHeldPost={id}", con);
+				command.ExecuteNonQuery();
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
 			}
 			con.Close();
-			return records;
 		}
-    }
+
+		private void SQL_DeleteWorker(int id)
+		{
+			con.Open();
+			try
+			{
+				SqlCommand command = new SqlCommand($"DELETE FROM Workers WHERE idWorker={id}", con);
+				command.ExecuteNonQuery();
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
+			}
+			con.Close();
+		}
+
+		private void SQL_DeletePost(int id)
+		{
+			con.Open();
+			try
+			{
+				SqlCommand command = new SqlCommand($"DELETE FROM Post WHERE idPost={id}", con);
+				command.ExecuteNonQuery();
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
+			}
+			con.Close();
+		}
+
+		private void SQL_DeleteDepartment(int id)
+		{
+			con.Open();
+			try
+			{
+				SqlCommand command = new SqlCommand($"DELETE FROM Department WHERE idDepartment={id}", con);
+				command.ExecuteNonQuery();
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
+			}
+			con.Close();
+		}
+
+		private void SQL_UpdateWorker(DataTable dataTable)
+        {
+            con.Open();
+            try
+            {
+                SqlDataAdapter adapter = new SqlDataAdapter($"SELECT idWorker AS [Код працівника], " +
+                    $"PIB AS [ПІБ], " +
+                    $"seriesAndNumber AS [Серія та номер паспорту], " +
+                    $"dateOfIssue AS [Дата видачі], " +
+                    $"issuingAuthority AS [Орган видачі]" +
+                    $"FROM Workers", con);
+                SqlCommandBuilder commandBuilder = new SqlCommandBuilder(adapter);
+                adapter.Update(dataTable);
+            }
+            catch
+            {
+            }
+            con.Close();
+        }
+
+        private void SQL_UpdateHeldPosts(DataTable dataTable)
+		{
+			con.Open();
+			try
+			{
+				SqlDataAdapter adapter = new SqlDataAdapter($"SELECT p.PostName AS [Код], " +
+					$"w.PIB AS [ПІБ], " +
+					$"d.DepartmentName AS [Відділ], " +
+					$"d.Division AS [Департамент], " +
+					$"dateOfAppointment AS [Дата призначення] " +
+					$"FROM HeldPosts AS h INNER JOIN Workers AS w ON h.idWorker = w.idWorker " +
+					$"INNER JOIN Department AS d ON d.idDepartment = h.Department " +
+					$"INNER JOIN Post AS p ON p.idPost = h.idPost", con);
+				SqlCommandBuilder commandBuilder = new SqlCommandBuilder(adapter);
+				adapter.Update(dataTable);
+			}
+			catch(Exception ex)
+			{
+				MessageBox.Show(ex.Message);
+			}
+			con.Close();
+		}
+
+		private void SQL_UpdatePost(DataTable dataTable)
+		{
+			con.Open();
+			try
+            {
+				SqlDataAdapter adapter = new SqlDataAdapter($"SELECT p.PostName AS [Код], " +
+					$"w.PIB AS [ПІБ], " +
+					$"d.DepartmentName AS [Відділ], " +
+					$"d.Division AS [Департамент], " +
+					$"dateOfAppointment AS [Дата призначення] " +
+					$"FROM HeldPosts AS h INNER JOIN Workers AS w ON h.idWorker = w.idWorker " +
+					$"INNER JOIN Department AS d ON d.idDepartment = h.Department " +
+					$"INNER JOIN Post AS p ON p.idPost = h.idPost", con);
+				SqlCommandBuilder commandBuilder = new SqlCommandBuilder(adapter);
+				adapter.Update(dataTable);
+            }
+            catch
+			{
+
+			}
+			con.Close();
+		}
+	}
 
 	class ExperienceCalculator : IExpirienceCalculator
 	{
@@ -327,7 +534,7 @@ namespace ExpCalc
 			Period periodDiff = CalculateCurrentPeriod(localDates[0], localDates[1]);
 			CalculateToGlobalPeriod(periodDiff, isState);
 			var expDB = new ExperienceDataBase();
-			if (addToDB && !expDB.Sqlite_IsRecordExists(startDate, endDate, name, isState))
+			/*if (addToDB && !expDB.Sqlite_IsRecordExists(startDate, endDate, name, isState))
 			{
 				ExperienceDataBase experienceData = new ExperienceDataBase();
 				if (isState)
@@ -336,7 +543,7 @@ namespace ExpCalc
 					experienceData.Sqlite_AddRecord(name, localDates[0], localDates[1], periodDiff, Period.Zero);
 				using (var f = new FormMain())
 					f.FillComboBoxNames();
-			}
+			}*/
 		}
 
 		public Period AddingPeriods(Period firstPeriod, Period secondPeriod)
@@ -359,7 +566,7 @@ namespace ExpCalc
 		}
 
 		public Period SubtractPeriods(Period firstPeriod, Period secondPeriod)
-        {
+		{
 			firstPeriod -= secondPeriod;
 			int[] period = { firstPeriod.Days, firstPeriod.Months, firstPeriod.Years };
 
@@ -395,7 +602,7 @@ namespace ExpCalc
 		}
 
 		public Period ConvertStringToPeriod(string period)
-        {
+		{
 			period = period.Replace(" ", "");
 			period = period.Replace(".", "");
 			period = period.Replace("_", "");
@@ -405,7 +612,7 @@ namespace ExpCalc
 		}
 
 		public LocalDate ConvertStringToLocalDate(string localDate)
-        {
+		{
 			string[] periodArr = localDate.Split('.');
 			return new LocalDate(Convert.ToInt32(periodArr[2]), Convert.ToInt32(periodArr[1]), Convert.ToInt32(periodArr[0]));
 		}
@@ -420,7 +627,7 @@ namespace ExpCalc
 		}
 
 		public void SubtractCheckedRecord(UserControlList.Record record, System.Windows.Forms.Label label_avgExperience, System.Windows.Forms.Label label_stateExperience)
-        {
+		{
 			Period periodAvg, periodState;
 			periodAvg = SubtractPeriods(ConvertStringToPeriod(label_avgExperience.Text), record.avgExp);
 			periodState = SubtractPeriods(ConvertStringToPeriod(label_stateExperience.Text), record.stateExp);
@@ -430,19 +637,44 @@ namespace ExpCalc
 
 		public void SelectCursorMaskedTextBox(Xceed.Wpf.Toolkit.MaskedTextBox maskedTextBox)
 		{
-			string text = maskedTextBox.Text.Replace(".", "").Trim();
-			text = text.Replace("_", "");
+			string text = maskedTextBox.Text.Replace(".", "").Replace("_", "").Trim();
 			if (text == "")
 				maskedTextBox.Select(0, 0);
-			else
-				maskedTextBox.Select(maskedTextBox.Text.Replace("_", "").Length, 0);
+			
 		}
 
-        public string ConvertPeriodToString(Period period)
-        {
+		public string ConvertPeriodToString(Period period)
+		{
 			return period.Years + " р. "
 				+ period.Months + " м. "
 				+ period.Days + " д. ";
 		}
-    }
+
+		public void CheckDateCorrect(object sender, TextCompositionEventArgs e)
+		{
+			if (Char.IsDigit(Convert.ToChar(e.Text)))
+			{
+				var text = (sender as Xceed.Wpf.Toolkit.MaskedTextBox).Text.Replace(".", "").Replace("_", "").Trim();
+				if (text.Length % 2 == 1)
+				{
+					if (text.Length == 3)
+					{
+						if (Convert.ToInt32(text[text.Length - 1] + e.Text) > 12)
+						{
+							System.Windows.MessageBox.Show("Помилка! Такого місяця не існує!\n", "Помилка!", MessageBoxButton.OK, (MessageBoxImage)System.Windows.Forms.MessageBoxIcon.Error);
+							e.Handled = true;
+						}
+					}
+					else if (text.Length == 1)
+					{
+						if (Convert.ToInt32(text[text.Length - 1] + e.Text) > 31)
+						{
+							System.Windows.MessageBox.Show("Помилка! Такого дня не існує!\n", "Помилка!", MessageBoxButton.OK, (MessageBoxImage)System.Windows.Forms.MessageBoxIcon.Error);
+							e.Handled = true;
+						}
+					}
+				}
+			}
+		}
+	}
 }

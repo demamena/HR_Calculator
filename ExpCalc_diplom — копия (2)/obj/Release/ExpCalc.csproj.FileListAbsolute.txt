@@ -1,0 +1,248 @@
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\EntityFramework.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\FontAwesome.Sharp.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\NodaTime.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\System.Buffers.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\System.Data.SQLite.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\System.Numerics.Vectors.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\Xceed.Wpf.AvalonDock.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\EntityFramework.xml
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\NodaTime.pdb
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\NodaTime.xml
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\System.Buffers.xml
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\System.Data.SQLite.xml
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\System.Data.SQLite.dll.config
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\System.Numerics.Vectors.xml
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\ExpCalc.csprojAssemblyReference.cache
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\UserControlExperience.baml
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\UserControlVacation.baml
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\UserControlExperience.g.cs
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\UserControlVacation.g.cs
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\ExpCalc.FormMain.resources
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\ExpCalc.UserControlList.resources
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\ExpCalc.csproj.GenerateResource.cache
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\ExpCalc.csproj.CoreCompileInputs.cache
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\ExpCalc.csproj.CopyComplete
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\HR Calculator.exe.config
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\HR Calculator.exe
+C:\Users\demam\source\repos\MyProjects\ExpCalc\bin\Release\HR Calculator.pdb
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\HR Calculator_Content.g.cs
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\HR Calculator_MarkupCompile.cache
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\HR Calculator.g.resources
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\HRCalculator.Properties.Resources.resources
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\HR Calculator.exe
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\HR Calculator.pdb
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\UserControlGivenDate.g.cs
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\HR Calculator_MarkupCompile.lref
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\UserControlGivenDate.baml
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\HRCalculator.FormGivenDate.resources
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\HR Calculator.exe.config
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\HR Calculator.exe
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\HR Calculator.pdb
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\EntityFramework.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\FontAwesome.Sharp.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\NodaTime.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\System.Buffers.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\System.Data.SQLite.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\System.Numerics.Vectors.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\Xceed.Wpf.AvalonDock.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\EntityFramework.xml
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\NodaTime.pdb
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\NodaTime.xml
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\System.Buffers.xml
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\System.Data.SQLite.xml
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\System.Data.SQLite.dll.config
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\System.Numerics.Vectors.xml
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\ExpCalc.csprojAssemblyReference.cache
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\UserControlExperience.baml
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\UserControlVacation.baml
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\UserControlExperience.g.cs
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\UserControlGivenDate.g.cs
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\UserControlVacation.g.cs
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\HR Calculator_Content.g.cs
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\HR Calculator_MarkupCompile.cache
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\HR Calculator_MarkupCompile.lref
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\UserControlGivenDate.baml
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\HR Calculator.g.resources
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\HRCalculator.FormGivenDate.resources
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\ExpCalc.FormMain.resources
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\HRCalculator.Properties.Resources.resources
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\ExpCalc.UserControlList.resources
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\ExpCalc.csproj.GenerateResource.cache
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\ExpCalc.csproj.CoreCompileInputs.cache
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\ExpCalc.csproj.CopyComplete
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\HR Calculator.exe
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\HR Calculator.pdb
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\UserControlRankAfterDecree.baml
+C:\Users\demam\source\repos\MyProjects\ExpCalcKursovoy\obj\Release\UserControlRankAfterDecree.g.cs
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\UserControlRankAfterDecree.baml
+C:\Users\demam\source\repos\MyProjects\ExpCalc\obj\Release\UserControlRankAfterDecree.g.cs
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\HR Calculator.exe.config
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\HR Calculator.exe
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\HR Calculator.pdb
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\EntityFramework.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\FontAwesome.Sharp.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\NodaTime.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\System.Buffers.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\System.Data.SQLite.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\System.Numerics.Vectors.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\Xceed.Wpf.AvalonDock.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\EntityFramework.xml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\NodaTime.pdb
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\NodaTime.xml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\System.Buffers.xml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\System.Data.SQLite.xml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\System.Data.SQLite.dll.config
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\System.Numerics.Vectors.xml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\UserControlExperience.baml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\UserControlRankAfterDecree.baml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\UserControlVacation.baml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\UserControlExperience.g.cs
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\UserControlGivenDate.g.cs
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\UserControlRankAfterDecree.g.cs
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\UserControlVacation.g.cs
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\HR Calculator_Content.g.cs
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\HR Calculator_MarkupCompile.cache
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\HR Calculator_MarkupCompile.lref
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\UserControlGivenDate.baml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\HR Calculator.g.resources
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\HRCalculator.FormGivenDate.resources
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\ExpCalc.FormMain.resources
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\HRCalculator.Properties.Resources.resources
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\ExpCalc.UserControlList.resources
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\ExpCalc.csproj.GenerateResource.cache
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\ExpCalc.csproj.CoreCompileInputs.cache
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\ExpCalc.csproj.CopyComplete
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\HR Calculator.exe
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\HR Calculator.pdb
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\ExpCalc.csprojAssemblyReference.cache
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\UserControlVacationAfterDecree.baml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc\obj\Release\UserControlVacationAfterDecree.g.cs
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\HR Calculator.exe.config
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\HR Calculator.exe
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\HR Calculator.pdb
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\EntityFramework.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\FontAwesome.Sharp.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\NodaTime.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Buffers.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Data.SQLite.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Numerics.Vectors.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\Xceed.Wpf.AvalonDock.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\EntityFramework.xml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\NodaTime.pdb
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\NodaTime.xml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Buffers.xml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Data.SQLite.xml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Numerics.Vectors.xml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlExperience.baml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlRankAfterDecree.baml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlVacation.baml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlVacationAfterDecree.baml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlExperience.g.cs
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlGivenDate.g.cs
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlRankAfterDecree.g.cs
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlVacation.g.cs
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlVacationAfterDecree.g.cs
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\HR Calculator_Content.g.cs
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\HR Calculator_MarkupCompile.cache
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\HR Calculator_MarkupCompile.lref
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlGivenDate.baml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\HR Calculator.g.resources
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\HRCalculator.FormGivenDate.resources
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\ExpCalc.FormMain.resources
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\HRCalculator.Properties.Resources.resources
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\ExpCalc.UserControlList.resources
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\ExpCalc.csproj.GenerateResource.cache
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\ExpCalc.csproj.CoreCompileInputs.cache
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\ExpCalc.csproj.CopyComplete
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\HR Calculator.exe
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\HR Calculator.pdb
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlMainMenu.g.cs
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlMainMenu.baml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlDecreeHospitalVacation.baml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlDecreeHospitalVacation.g.cs
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\ExpCalc.csproj.AssemblyReference.cache

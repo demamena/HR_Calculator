@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1bb2c1b1-ed0f-479d-b085-775bb5a69c3a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ExpCalc/.vs/ExpCalc/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../ExpCalc/.vs/ExpCalc/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExpCalc/obj/Release/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ExpCalc/obj/Release/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ExpCalc/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ExpCalc/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/App.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExpCalc.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ExpCalc.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExperienceCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ExperienceCalculator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormGivenDate.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FormGivenDate.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormMain.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FormMain.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormMain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FormMain.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserControlExperience.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/UserControlExperience.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserControlExperience.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UserControlExperience.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserControlGivenDate.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/UserControlGivenDate.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserControlGivenDate.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UserControlGivenDate.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserControlRankAfterDecree.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/UserControlRankAfterDecree.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserControlRankAfterDecree.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UserControlRankAfterDecree.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserControlVacation.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/UserControlVacation.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserControlVacation.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UserControlVacation.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserControlVacationAfterDecree.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/UserControlVacationAfterDecree.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserControlVacationAfterDecree.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UserControlVacationAfterDecree.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/EntityFramework.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/EntityFramework.SqlServer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/EntityFramework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/EntityFramework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/FontAwesome.Sharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/HR Calculator.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/HR Calculator.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/HR Calculator.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/NodaTime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/NodaTime.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/NodaTime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/System.Buffers.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/System.Buffers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/System.Data.SQLite.EF6.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/System.Data.SQLite.Linq.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/System.Data.SQLite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/System.Data.SQLite.dll.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/System.Data.SQLite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/System.Numerics.Vectors.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/System.Numerics.Vectors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/Xceed.Wpf.AvalonDock.Themes.Aero.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/Xceed.Wpf.AvalonDock.Themes.Metro.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/Xceed.Wpf.AvalonDock.Themes.VS2010.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/Xceed.Wpf.AvalonDock.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/Xceed.Wpf.Toolkit.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/cs-CZ/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/de/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/es/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/experiencePeriods.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/fr/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/hu/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/it/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/pt-BR/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/ro/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/ru/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/sv/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/x64/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/x86/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HR Calculator/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/FontAwesome.Sharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/FontAwesome.Sharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/HR Calculator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/HR Calculator.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/HR Calculator.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/HR Calculator.exe.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/HR Calculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/HR Calculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/System.Data.SQLite.dll.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/System.Runtime.CompilerServices.Unsafe.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/Xceed.Wpf.AvalonDock.Themes.Aero.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/Xceed.Wpf.AvalonDock.Themes.Aero.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/Xceed.Wpf.AvalonDock.Themes.Metro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/Xceed.Wpf.AvalonDock.Themes.Metro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/Xceed.Wpf.AvalonDock.Themes.VS2010.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/Xceed.Wpf.AvalonDock.Themes.VS2010.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/Xceed.Wpf.AvalonDock.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/Xceed.Wpf.AvalonDock.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/Xceed.Wpf.Toolkit.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/Xceed.Wpf.Toolkit.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/cs-CZ/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/cs-CZ/Xceed.Wpf.AvalonDock.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/de/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/de/Xceed.Wpf.AvalonDock.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/es/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/es/Xceed.Wpf.AvalonDock.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/experiencePeriods.db" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/experiencePeriods.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/fr/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/fr/Xceed.Wpf.AvalonDock.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/hu/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/hu/Xceed.Wpf.AvalonDock.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/it/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/it/Xceed.Wpf.AvalonDock.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/pt-BR/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/pt-BR/Xceed.Wpf.AvalonDock.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/ro/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/ro/Xceed.Wpf.AvalonDock.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/ru/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/ru/Xceed.Wpf.AvalonDock.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/sv/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/sv/Xceed.Wpf.AvalonDock.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/ExpCalc.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/ExpCalc.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/ExpCalc.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/ExpCalc.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/ExpCalc.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/ExpCalc.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/ExpCalc.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/HR Calculator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/HR Calculator.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/HR Calculator.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/HR Calculator.g.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/HR Calculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/HR Calculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/HR Calculator_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/HR Calculator_MarkupCompile.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/HR Calculator_MarkupCompile.i.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/HR Calculator_MarkupCompile.i.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/HR Calculator_MarkupCompile.i.lref" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/HR Calculator_MarkupCompile.i.lref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/HRCalculator.Properties.Resources.resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/HRCalculator.Properties.Resources.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/TempPE/Properties.Resources.Designer.cs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/TempPE/Properties.Resources.Designer.cs.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/UserControlExperience.baml" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/UserControlExperience.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/UserControlExperience.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/UserControlExperience.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/UserControlExperience.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/UserControlExperience.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/UserControlGivenDate.baml" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/UserControlGivenDate.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/UserControlGivenDate.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/UserControlGivenDate.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/UserControlGivenDate.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/UserControlGivenDate.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/UserControlRankAfterDecree.baml" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/UserControlRankAfterDecree.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/UserControlRankAfterDecree.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/UserControlRankAfterDecree.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/UserControlRankAfterDecree.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/UserControlRankAfterDecree.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/UserControlVacation.baml" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/UserControlVacation.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/UserControlVacation.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/UserControlVacation.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/UserControlVacation.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/UserControlVacation.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/UserControlVacationAfterDecree.baml" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/UserControlVacationAfterDecree.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/UserControlVacationAfterDecree.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/UserControlVacationAfterDecree.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/UserControlVacationAfterDecree.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/UserControlVacationAfterDecree.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/Extended.Wpf.Toolkit.4.0.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/lib/net40/Xceed.Wpf.AvalonDock.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/lib/net40/Xceed.Wpf.Toolkit.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/lib/net40/cs-CZ/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Extended.Wpf.Toolkit.4.0.1/tools/install.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/FontAwesome.Sharp.5.14.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/FontAwesome.Sharp.5.14.1/FontAwesome.Sharp.5.14.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/FontAwesome.Sharp.5.14.1/lib/net40/FontAwesome.Sharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/FontAwesome.Sharp.5.14.1/lib/net45/FontAwesome.Sharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/FontAwesome.Sharp.5.14.1/lib/net472/FontAwesome.Sharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/FontAwesome.Sharp.5.14.1/lib/net48/FontAwesome.Sharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/FontAwesome.Sharp.5.14.1/lib/netcoreapp3.1/FontAwesome.Sharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.1.0.113.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.1.0.113.1/System.Data.SQLite.1.0.113.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/System.Data.SQLite.Core.1.0.113.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/build/net20/System.Data.SQLite.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/build/net20/x64/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/build/net20/x86/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/build/net40/System.Data.SQLite.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/build/net40/x64/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/build/net40/x86/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/build/net45/System.Data.SQLite.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/build/net45/x64/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/build/net45/x86/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/build/net451/System.Data.SQLite.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/build/net451/x64/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/build/net451/x86/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/build/net46/System.Data.SQLite.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/build/net46/x64/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/build/net46/x86/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/net20/System.Data.SQLite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/net20/System.Data.SQLite.dll.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/net20/System.Data.SQLite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/net40/System.Data.SQLite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/net40/System.Data.SQLite.dll.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/net40/System.Data.SQLite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/net45/System.Data.SQLite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/net45/System.Data.SQLite.dll.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/net45/System.Data.SQLite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/net451/System.Data.SQLite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/net451/System.Data.SQLite.dll.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/net451/System.Data.SQLite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/net46/System.Data.SQLite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/net46/System.Data.SQLite.dll.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/net46/System.Data.SQLite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/netstandard2.0/System.Data.SQLite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/netstandard2.0/System.Data.SQLite.dll.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/netstandard2.0/System.Data.SQLite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/netstandard2.1/System.Data.SQLite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/netstandard2.1/System.Data.SQLite.dll.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/lib/netstandard2.1/System.Data.SQLite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/runtimes/linux-x64/native/netstandard2.0/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/runtimes/linux-x64/native/netstandard2.1/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/runtimes/osx-x64/native/netstandard2.0/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/runtimes/osx-x64/native/netstandard2.1/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/runtimes/win-x64/native/netstandard2.0/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/runtimes/win-x64/native/netstandard2.1/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/runtimes/win-x86/native/netstandard2.0/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Data.SQLite.Core.1.0.113.1/runtimes/win-x86/native/netstandard2.1/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/System.Runtime.CompilerServices.Unsafe.4.7.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/lib/net461/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/lib/net461/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/ref/net461/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/ref/net461/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/useSharedDesignerContext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Runtime.CompilerServices.Unsafe.4.7.1/version.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1tbJa0qEtto20XqV55f5x5Q9jLt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bb2c1b1-ed0f-479d-b085-775bb5a69c3a" name="Default Changelist" comment="" />
+      <created>1623031915233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623031915233</updated>
+      <workItem from="1623031916542" duration="82000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

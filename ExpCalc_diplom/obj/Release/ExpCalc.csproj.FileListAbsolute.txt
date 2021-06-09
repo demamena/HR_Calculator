@@ -204,7 +204,6 @@ C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\NodaTime.pd
 C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\NodaTime.xml
 C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Buffers.xml
 C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Data.SQLite.xml
-C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Data.SQLite.dll.config
 C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Numerics.Vectors.xml
 C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
@@ -218,7 +217,6 @@ C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\ro\Xceed.Wp
 C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
-C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\ExpCalc.csprojAssemblyReference.cache
 C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlExperience.baml
 C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlRankAfterDecree.baml
 C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlVacation.baml
@@ -244,3 +242,81 @@ C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\HR Calculat
 C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\HR Calculator.pdb
 C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlMainMenu.g.cs
 C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlMainMenu.baml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlDecreeHospitalVacation.baml
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlDecreeHospitalVacation.g.cs
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\demam\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\ExpCalc.csproj.AssemblyReference.cache
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\HR Calculator.exe.config
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\HR Calculator.exe
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\HR Calculator.pdb
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\EntityFramework.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\EntityFramework.SqlServer.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\FontAwesome.Sharp.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\NodaTime.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Buffers.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Data.SQLite.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Data.SQLite.EF6.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Data.SQLite.Linq.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Numerics.Vectors.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\Xceed.Wpf.AvalonDock.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\Xceed.Wpf.Toolkit.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\EntityFramework.xml
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\EntityFramework.SqlServer.xml
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\NodaTime.pdb
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\NodaTime.xml
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Buffers.xml
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Data.SQLite.xml
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Numerics.Vectors.xml
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\ExpCalc.csproj.AssemblyReference.cache
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlDecreeHospitalVacation.baml
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlExperience.baml
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlRankAfterDecree.baml
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlVacation.baml
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlVacationAfterDecree.baml
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlDecreeHospitalVacation.g.cs
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlExperience.g.cs
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlGivenDate.g.cs
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlMainMenu.g.cs
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlRankAfterDecree.g.cs
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlVacation.g.cs
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlVacationAfterDecree.g.cs
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\HR Calculator_Content.g.cs
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\HR Calculator_MarkupCompile.cache
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\HR Calculator_MarkupCompile.lref
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlGivenDate.baml
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlMainMenu.baml
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\HR Calculator.g.resources
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\HRCalculator.FormGivenDate.resources
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\ExpCalc.FormMain.resources
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\HRCalculator.Properties.Resources.resources
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\ExpCalc.UserControlList.resources
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\ExpCalc.csproj.GenerateResource.cache
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\ExpCalc.csproj.CoreCompileInputs.cache
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\ExpCalc.csproj.CopyComplete
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\HR Calculator.exe
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\HR Calculator.pdb
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlAddWorker.g.cs
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlCreatePost.g.cs
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlDepartmentAdding.g.cs
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlPostAssign.g.cs
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlAddWorker.baml
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlCreatePost.baml
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlDepartmentAdding.baml
+F:\source\repos\HR_Calculator\ExpCalc_diplom\obj\Release\UserControlPostAssign.baml
